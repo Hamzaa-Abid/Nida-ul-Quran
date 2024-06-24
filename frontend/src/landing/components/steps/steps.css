@@ -1,0 +1,158 @@
+#simplestep {
+  background: #eeeeee;
+  padding: 80px 0;
+}
+.simplestep-content .simplestep {
+  float: left;
+  width: 60%;
+}
+.simplestep-content .simplestep-right {
+  float: right;
+  width: 35%;
+  background: #fff;
+  box-shadow: 10px 0 30px rgba(45, 45, 45, 0.1);
+  padding: 50px 15px 50px;
+  text-align: center;
+}
+.simplestep-content .simplestep-heading h6 {
+  color: #04a38f;
+  font-family: "NexaLight";
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  background: url('../../../assets/images/kitab-icon1.png') no-repeat left top;
+  padding-top: 50px;
+}
+.simplestep-content .simplestep-heading h2 {
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+.simplestep-content .steptabs-section {
+  margin-bottom: 30px;
+}
+.simplestep-content .steptabs-section ul {
+  text-align: center;
+}
+.simplestep-content .steptabs-section li {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+}
+.simplestep-content .steptabs-section .stepimg {
+  margin-bottom: 15px;
+  transition: 2s;
+}
+.simplestep-content .steptabs-section .stepimg img.hoverimg {
+  display: none;
+}
+.simplestep-content .steptabs-section h6 {
+  font-family: "Philosopher-Bold";
+  font-size: 30px;
+  color: #222222;
+  margin-bottom: 15px;
+}
+.simplestep-content .steptabs-section h5 {
+  color: #18a690;
+  font-family: "NexaBold";
+  font-size: 30px;
+}
+.simplestep-content .steptabs-section a {
+  text-decoration: none;
+  display: block;
+}
+.simplestep-content .steptabs-section ul::before {
+  content: "";
+  display: block;
+  width: 70%;
+  background: #111111;
+  height: 2px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+.simplestep-content .steptabs-section a:hover .stepimg img {
+  display: none;
+}
+.simplestep-content .steptabs-section a:hover .stepimg img.hoverimg {
+  display: inline-block;
+}
+.simplestep-content .steptabs-section a:hover h5 {
+  color: #2e6d99;
+}
+.simplestep-content .hadees-section {
+  text-align: center;
+}
+.simplestep-content .hadees-section h3 {
+  color: #2e6d99;
+  font-size: 24px;
+  line-height: 35px;
+  font-family: "NexaBold";
+  font-weight: bold;
+}
+.simplestep-content .hadees-section p {
+  font-family: "NexaLight";
+  color: #222222;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.simplestep-content .hadees-section::before {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.simplestep-content .hadees-section::after {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.simplestep-right .simplestep-slide .slide-img {
+  background: url('../../../assets/images/kitab-icon8.png') no-repeat 10% center,
+    url('../../../assets/images/kitab-icon8.png') no-repeat 90% center;
+  background-size: 90px auto;
+  margin-bottom: 25px;
+}
+.simplestep-right .simplestep-slide .slide-img img {
+  width: auto;
+  display: inline-block;
+}
+.simplestep-right .simplestep-slide h3 {
+  color: #222222;
+  font-family: "NexaBold";
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.simplestep-right .simplestep-slide p {
+  font-size: 18px;
+  color: #333333;
+  font-family: "NexaLight";
+  line-height: 33px;
+}
+.simplestep-right .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 50px;
+  display: none !important;
+}
+.steps-wrap a .stepimg{
+  position: relative;
+}
+.steps-wrap a .stepimg:before{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95px;
+  height: 95px;
+  background: url(../../../assets/images/circle-green.png);
+  background-size: cover;
+  transition: all 1s;
+}
+.simplestep-content .steptabs-section .stepimg:hover:before {
+  transform: translateX(-50%) rotate(360deg);
+  background: url(../../../assets/images/circle-blue.png);
+  background-size: cover;
+}

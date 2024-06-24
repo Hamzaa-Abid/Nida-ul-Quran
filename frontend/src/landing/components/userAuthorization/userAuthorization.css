@@ -1,0 +1,618 @@
+.popup-wrap .default-btn {
+  padding: 20px 45px;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -moz-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+}
+.default-btn:hover {
+  text-decoration: none;
+  background-image: linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -moz-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+}
+
+.popup-wrap {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 999;
+}
+.popup {
+  border-radius: 20px;
+  background: #f4f6f9;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 90vh;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-48%);
+}
+.popup .popup-contentleft {
+  float: left;
+  width: 50%;
+}
+.popup-contentleft .popupcontent {
+  padding: 80px 80px 40px 80px;
+}
+.popup-contentleft > P {
+  padding: 10px 80px 40px 80px;
+  text-align: center;
+  color: #252525;
+  font-size: 14px;
+  font-family: "Nexa-Regular";
+}
+.popup-contentleft > P a {
+  color: #252525;
+}
+.popup-contentleft .popupcontent .content-box {
+  background: #fff;
+}
+.content-tabsbtn li {
+  display: inline-block;
+  width: 49.5%;
+}
+.content-tabsbtn li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  color: #024873;
+  text-transform: capitalize;
+  padding: 15px;
+  background: #fff;
+  font-family: "Nexa-Regular";
+}
+.content-tabsbtn li.active a {
+  font-family: "Nexa-XBold";
+  color: #fff;
+  background-image: linear-gradient(
+    -173deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -moz-linear-gradient(
+    -173deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -173deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -173deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+}
+.content-box .login-form {
+  padding: 35px 25px;
+}
+.content-box .login-form form > label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #898989;
+  font-family: "Nexa-Regular";
+}
+.content-box .login-form input,
+.content-box .login-form select {
+  display: block;
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  padding: 15px 50px 10px 15px;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-family: "Nexa-Regular";
+}
+.content-box .login-form .default-btn {
+  margin-top: 20px;
+  padding: 18px 40px 12px;
+  display: block;
+  cursor: pointer;
+  font-family: "Nexa-XBold";
+  text-align: center !important;
+}
+.login-form .otherinfo label {
+  display: inline-block;
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 25px;
+  font-family: "Nexa-Regular";
+}
+.login-form .otherinfo a {
+  display: inline-block;
+
+  font-size: 15px;
+  color: #26888d;
+  text-decoration: none;
+  font-family: "Nexa-Regular";
+  margin-left: 5px;
+}
+.login-form .otherinfo a:hover {
+  text-decoration: underline;
+}
+.login-form .otherlogin-option {
+  margin-top: 20px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 20px;
+}
+.login-form .otherlogin-option h6 {
+  text-align: center;
+  font-size: 16px;
+  color: #2e6c96;
+  margin-bottom: 20px;
+  font-family: "Nexa-Regular";
+}
+.login-form .otherlogin-option ul {
+  text-align: center;
+}
+.login-form .otherlogin-option li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.login-form .otherlogin-option li:last-child {
+  margin-right: 0;
+}
+
+.popup .popup-contentright {
+  float: right;
+  width: 50%;
+}
+.popup-contentright .popupcontent {
+  background: url("../../../assets/images/loginright-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 0 40px 48px;
+  position: relative;
+  height: 100vh;
+}
+#signup .popup-contentright .popupcontent {
+  background: url("../../../assets/images/signupright-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.popup-contentright .popupcontent .overlaypopup {
+  background-image: linear-gradient(
+    0deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(0, 165, 142) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  opacity: 0.902;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 90vh;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.popup-contentright .popupcontent .inner-content {
+  position: relative;
+  z-index: 9;
+  padding-top: 50%;
+}
+.popupcontent .inner-content h3 {
+  font-size: 42px;
+  color: #fff;
+  font-family: "Nexa-XBold";
+}
+.popupcontent .inner-content h4 {
+  font-size: 22px;
+  color: #fff;
+  font-family: "Nexa-XBold";
+  margin-bottom: 20px;
+}
+.popupcontent .inner-content h3::after {
+  background: #fff;
+  width: 80%;
+  height: 1px;
+  content: "";
+  display: block;
+  margin: 10px 0 25px;
+  opacity: 0.6;
+}
+.popupcontent .inner-content p {
+  color: #cddee0;
+  font-size: 19px;
+  line-height: 31px;
+  margin-bottom: 40px;
+  font-family: "Nexa-Regular";
+}
+.popupcontent .inner-content > a {
+  background: none;
+  border: 1px solid #cddee0;
+  color: #cddee0;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+  padding: 15px 30px 10px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "Nexa-Regular";
+  display: inline-block;
+}
+.popupcontent .inner-content > a:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #2e6c96;
+}
+
+#signup .signup-option li {
+  display: block;
+  margin-bottom: 25px;
+}
+#signup .signup-option li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Nexa-Regular";
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+#signup .signup-option li a span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  border-right: 1px solid #fff;
+  width: 45px;
+  text-align: center;
+}
+#signup .signup-option li a span img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#signup .signup-option li a em {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  padding: 10px 45px 5px;
+}
+#signup .signup-option li .studentsignup {
+  background: #05968e;
+}
+#signup .signup-option li .tutorsignup {
+  background: #306a96;
+}
+#signup .signup-option li:hover a {
+  opacity: 0.7;
+}
+#signup .signup-option li .tutorsignup em {
+  padding: 15px 45px 10px;
+}
+#signup .signup-option {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px;
+}
+#login .popup-contentright .popupcontent {
+  border-radius: 20px;
+  height: 85vh;
+}
+#signup .popup-contentright .popupcontent {
+  border-radius: 0 7px 20px 0;
+  height: 85vh;
+}
+#signupstudent .popup-contentright .popupcontent {
+  height: 100vh;
+}
+#signuptutor .content-box .login-form .default-btn {
+  text-align: center;
+}
+.round-btn {
+  margin-top: 15px;
+}
+.round-btn ul {
+  text-align: center;
+}
+.round-btn li {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.round-btn li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  background: #98bccc;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+.round-btn li a.active {
+  width: 15px;
+  height: 15px;
+  background: #1b6a8e;
+}
+#signuptutor .popup-contentright .popupcontent {
+  height: 110vh;
+}
+#signuptutor .login-form {
+  display: none;
+}
+#signuptutor #signuptutorstep-2 .default-btn {
+  margin-top: 0;
+}
+.more-skills {
+  padding: 0 30px;
+}
+.more-skills > label:first-child {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #898989;
+  font-family: "Nexa-Regular";
+  padding-left: 0;
+  width: 100%;
+}
+.more-skills label {
+  display: inline-block;
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 25px;
+  font-family: "Nexa-Regular";
+  width: 40%;
+  margin-bottom: 25px;
+}
+
+/* Checkbox */
+.containercheckbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.containerForgot {
+  display: block;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containercheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containercheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containercheckbox input:checked ~ .checkmark {
+  background-color: #26888d;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containercheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containercheckbox .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(30deg);
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+}
+.error {
+  color: red;
+}
+.pop-up-new {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+#signup.pop-up-new {
+  /* align-items: center; */
+  max-height: 90vh;
+  height: auto;
+}
+#login.pop-up-new .popup-contentleft .popupcontent {
+  padding: 40px 50px 0px 50px;
+}
+#login.pop-up-new .popup-contentleft > P {
+  padding: 10px 80px 0px 80px;
+}
+.pop-up-new .popup-contentleft,
+.pop-up-new .popup-contentright {
+  float: none;
+}
+.popup-contentright .popupcontent .inner-content {
+  padding-top: 30px;
+}
+.pop-up-new .popup-contentright {
+  max-height: 90vh;
+  height: 100%;
+  min-height: 500px;
+  overflow-y: auto;
+}
+.pop-up-new .popup-contentright::-webkit-scrollbar {
+  width: 8px;
+  text-align: center;
+}
+/* Track */
+.pop-up-new .popup-contentright::-webkit-scrollbar-track {
+  background: #cfd8dc;
+}
+/* Handle */
+.pop-up-new .popup-contentright::-webkit-scrollbar-thumb {
+  background: #90a4ae;
+  width: 6px;
+}
+#login.pop-up-new .popup-contentright {
+  max-height: 853px;
+  height: auto;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
+.pop-up-new .popup-contentright .popupcontent {
+  height: 100% !important;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.pop-up-new .popup-contentright .popupcontent .overlaypopup {
+  height: 100%;
+}
+.text {
+  color: #fff;
+}
+.custom-checkbox {
+  height: 30px;
+  width: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+button.kep-login-facebook.metro {
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.content-box .login-form {
+  padding: 35px 25px 10px 25px;
+}
+.rules-wrapper {
+  max-height: 60vh;
+  overflow-y: scroll;
+  background-color: #05968f44;
+  padding: 20px;
+}
+.rules-wrapper > p {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.rules-wrapper::-webkit-scrollbar {
+  width: 0px;
+  text-align: center;
+}
+/* Track */
+.rules-wrapper::-webkit-scrollbar-track {
+  background: #cfd8dc;
+}
+/* Handle */
+.rules-wrapper::-webkit-scrollbar-thumb {
+  background: #90a4ae;
+  width: 1px;
+}

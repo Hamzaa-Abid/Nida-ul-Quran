@@ -1,0 +1,56 @@
+
+#learnteach-banner{
+	background:#f0f0ef url(../../../assets/images/learnteach-bg.png) no-repeat center top;
+	background-size: 100% auto;
+	padding:65px 0 40px;
+}
+#learnteach-banner .learnteach-content .learnteach-left{
+	float: left;
+	width: 35%;
+	padding-top: 80px;
+}
+#learnteach-banner .learnteach-content .learnteach-middle{
+	float: left;
+	width: 30%;
+}
+#learnteach-banner .learnteach-content .learnteach-right{
+	float: right;
+	width: 35%;
+	padding-top: 80px;
+}
+#learnteach-banner .learnteach-content{
+	text-align: center;
+}
+#learnteach-banner .learnteach-content h2{
+	color: #fff;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 30px;
+	font-family: 'NexaBold';
+}
+#learnteach-banner .learnteach-content .border-btn{
+	background: none;
+	padding: 13px 25px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	text-transform: capitalize;
+	font-family: 'NexaBold';
+	font-size: 17px;
+	line-height: 1;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #fff;
+}
+#learnteach-banner .learnteach-content .border-btn:hover{
+	background: #fff;
+	color: #04a38f;
+}
+#learnteach-banner .learnteach-content .learnteach-logo img{
+	display: block;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}

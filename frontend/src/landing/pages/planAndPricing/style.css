@@ -1,0 +1,220 @@
+#planpricing-page{
+	padding: 70px 0;
+}
+#planpricing-page .container > h2{
+	text-transform: uppercase;
+	color: #00a58e;
+	font-size: 36px;
+	text-align: center;
+}
+#planpricing-page .container > p{
+	color: #222222;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 70px;
+}
+.planpricing-wrap{
+	text-align: center;
+}
+.planpricing-wrap .planpricing{
+	display: inline-block;
+    width: 23%;
+    background: #fff;
+    text-align: center;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.planpricing-wrap .planpricing:last-child{
+	margin-right: 0;
+}
+.planpricing-wrap .planpricing-head,
+.planpricing-wrap .planpricing-foot{
+	background: #2d6f98;
+	text-align: center;
+	padding: 25px 15px;
+	margin-bottom: 15px;
+}
+.planpricing-wrap .planpricing-foot{
+	background: #00a58e;
+}
+.planpricing-wrap .planpricing-head h3,
+.planpricing-wrap .planpricing-foot h3{
+	font-family: 'NexaLight';
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+.planpricing-wrap .planpricing-foot a{
+	text-decoration: none;
+	display: block;
+}
+.planpricing-wrap .planpricing-foot a:hover{
+	opacity: 0.7;
+}
+.planpricing-wrap .planpricing-body{
+	background: #edf0f8;
+	padding: 20px 15px;
+	margin-bottom: 15px;
+}
+.planpricing-wrap .planpricing-body li{
+	display: block;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.planpricing-wrap .planpricing:first-child .planpricing-body li{
+	text-align: center;
+}
+.planpricing-wrap .planpricing-body li:last-child{
+	margin: 0;
+}
+.planpricing-wrap .planpricing-body li i{
+	font-style: normal;
+	display: inline-block;
+	color: #222222;
+	font-size: 16px;
+	font-family: 'NexaBold';
+	text-align: center;
+	line-height: 1;
+}
+.planpricing-wrap .planpricing-body li span{
+	display: inline-block;
+	color: #222222;
+	font-size: 16px;
+	font-family: 'NexaBold';
+	width: 70%;
+	vertical-align: top;
+	line-height: 1;
+}
+.planpricing-wrap .planpricing-body li.withoutinput span{
+	padding-left: 20px;
+	width: auto;
+}
+.planpricing-wrap .planpricing-body li.withoutinput.checkbox-list span{
+	padding-left: 20px;
+	width: 61%;
+}
+.planpricing-wrap .planpricing-body li strong{
+	color: #00a58e;
+	font-size: 15px;
+	font-family: 'NexaBold';
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	line-height: 1;
+}
+.plan-radio {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	line-height: 1;
+  }
+  
+  /* Hide the browser's default radio button */
+  .plan-radio input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .radioBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	border: 1px solid #00a58e;
+	border-radius: 50%;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .radioBtn:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .plan-radio input:checked ~ .radioBtn:after {
+	display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .plan-radio .radioBtn:after {
+	   top: 2px;
+	  left: 2px;
+	  width: 9px;
+	  height: 9px;
+	  border-radius: 50%;
+	  background: #00a58e;
+  }
+
+  .plan-checkbox {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .plan-checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .plan-checkbox .radioBtn {
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 0;
+	height: 18px;
+	width: 18px !important;
+	background-color: #eee;
+	padding: 0 !important;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .plan-checkbox input:checked ~ .radioBtn {
+	background-color: #00a58e;
+  }
+  
+  /* Create the radioBtn/indicator (hidden when not checked) */
+  .plan-checkbox .radioBtn:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the radioBtn when checked */
+  .plan-checkbox input:checked ~ .radioBtn:after {
+	display: block;
+  }
+  
+  /* Style the radioBtn/indicator */
+  .plan-checkbox .radioBtn:after {
+	left: 5px;
+	top: 2px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }

@@ -1,0 +1,48 @@
+.welcomesection{
+	padding: 20px 30px 10px 30px;
+	background: #edf0f8;
+}
+.welcomesection h2{
+	margin-bottom: 10px;
+	font-size: 30px ;
+
+}
+
+.welcomesection li{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.welcomesection li img{
+	display: inline-block;
+    width: 14px;
+    margin-right: 3px;
+}
+.welcomesection li a{
+	text-decoration: none;
+}
+.welcomesection li.pref a{
+	color: #009999;
+	font-size: 18px;
+	display: block;
+}
+.welcomesection li.pref i{
+	display: inline-block;
+	background: url('../../assets/images/pref-icon.png') no-repeat center 1px;
+	background-size: 100% auto;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+.welcomesection li.pref em{
+	font-style: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.collapse-menu {
+    padding-left: 250px;
+    transition: width .3s;
+    min-height: calc(100vh - 120px);
+    background: #edf0f8;
+}

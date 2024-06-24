@@ -1,0 +1,210 @@
+/* Quran Revision Page */
+.quranrevision-page{
+	padding: 0 60px 50px 60px;
+}
+.quranrevision-page .quranrevision-slider{
+	float: right;
+	width: 72%;
+	margin-left: 20px;
+	margin-bottom: 19vh;
+}
+.quranrevision-page .quranrevision-slider .owl-carousel{
+	/* width: 558px; */
+	margin: 0 auto;
+}
+.quranrevision-page .quranrevision-setting{
+	float: left;
+	width: 20%;
+    margin-top: 20px;
+    position: fixed;
+    transition: ease-in-out .3s;
+}
+.quranrevision-page{
+	display: block;
+    width: 100%;
+}
+.quranrevision-slider{
+    position: relative;
+    border: 50px solid transparent;
+    border-image: url('../../../assets/images/bordericon.png') ;
+    border-image-slice: 180;
+    border-image-repeat: round;
+    padding: 30px 50px;
+    font-size: 34px;
+    background-color: rgba(0, 165, 142, 0.050980392156862744);
+    border-radius: 50px;
+    /* min-height: 50vh;
+    max-height: 65vh;
+    overflow-y: scroll; */
+}
+/* .quranrevision-slider {
+    scroll-behavior: smooth;
+    --scrollbarBG: #cfd8dc;
+    --thumbBG: #90a4ae;
+  }
+  .quranrevision-slider::-webkit-scrollbar {
+    width: 11px;
+  }
+  .quranrevision-slider {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  .quranrevision-slider::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  .quranrevision-slider::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  } */
+.quranrevision-slider:hover{
+    cursor: url('../../../assets/images/feather.png'), auto;
+}
+.Quran-surah-name{
+    background: url('../../../assets/images/titleborder.png') ;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 35px 0 19px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #404040;
+}
+.Bismillah{
+    text-align: center;
+    font-weight: bolder;
+    color: #00a58e;
+    margin-bottom: 20px;
+}
+.ayah{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.ayah:hover{
+    color: #00a58e;
+}
+.ayah-number{
+    font-size: 14px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.3;
+    background-color: #00a58e;
+    border-radius:50px;
+    vertical-align: middle;
+    padding-top: 3px;
+    margin-left: 5px;
+}
+.nav-btn{
+    position: relative;
+    top: 50px;
+    z-index: 99999;
+    width: 50px;
+    height: 50px;
+}
+.next{
+    background: url('../../../assets/images/quranslider-right.png') no-repeat center center;
+    background-size: contain;
+    right: -70px;
+}
+.previous{
+    background: url('../../../assets/images/quranslider-left.png') no-repeat center center;
+    background-size: contain;
+    left: -70px;
+}
+.next:hover,
+.previous:hover{
+    cursor: pointer !important;
+}
+/* .quranrevision-slider .owl-nav button {
+    position: absolute;
+    left: -13px;
+    top: 50%;
+	transform: translate(0, -50%);
+	font-size: 0 !important;
+	background: url(../images/quranslider-left.png) no-repeat !important;
+	background-size: 100% auto !important;
+	width: 45px !important;
+	height: 45px !important;
+}
+.quranrevision-slider .owl-nav button.owl-next{
+	position: absolute;
+    left: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+	right: -14px;
+	background: url(../images/quranslider-right.png) no-repeat !important;
+	background-size: 100% auto !important;
+} */
+.quranrevision-page .quransetting-box{
+	background: #00a58e;
+	padding: 20px 40px;
+	margin-bottom: 20px;
+}
+.quransetting-box label{
+	font-size: 17px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 5px;
+	display: block;
+}
+.quransetting-box select{
+	/* background:#f0efef url(../images/down-icon.png) no-repeat 96% center / 12px 8px; */
+	padding: 15px 30px 8px 12px;
+	margin-bottom: 15px;
+}
+.quransetting-box select:last-child{
+	margin-bottom: 0;
+}
+
+.whiteboard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.whiteboard:hover{
+    cursor: pointer;
+}
+
+.white-board-mpdal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00a58f;
+    z-index: 99999;
+    /* padding: 70px; */
+}
+.closeBtn{
+    color: #a50031;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    /* background-color: #00a58e; */
+    text-align: right;
+}
+.closeBtn:hover{
+    cursor: pointer;
+}
+.closeBtn span{
+    padding: 5px 5px 2px;
+    border: 2px solid #a50031;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.closeBtn span:hover{
+    color: #a50031;
+    background-color: #fff;
+    border: 2px solid #fff;
+}

@@ -1,0 +1,41 @@
+.student-footer{
+	padding: 20px 30px 20px 110px;
+	background-image: linear-gradient( 1deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -moz-linear-gradient( 1deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -webkit-linear-gradient( 1deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -ms-linear-gradient( 1deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+}
+.student-footer .student-footer-left{
+	float: left;
+	width: 25%;
+}
+.student-footer .student-footer-right{
+	float: right;
+	width: 75%;
+	text-align: right;
+}
+.student-footer-left p{
+	font-family: 'Nexa-Regular';
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1;
+	display: inline;
+}
+.student-footer-right li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.student-footer-right li a{
+	font-family: 'Nexa-Regular';
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.student-footer-right li a:hover{
+	text-decoration: none;
+}
+.collapse-footer{
+	padding-left: 280px !important;
+}

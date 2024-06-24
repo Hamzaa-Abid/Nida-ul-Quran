@@ -1,0 +1,93 @@
+#slider-wrap {
+  max-width: 100%;
+  /* background-size: cover; */
+  position: relative;
+  overflow: hidden;
+}
+.bg1{
+  background: url('../../../assets/images/header2.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0 100px;
+}
+.bg2{
+  background: url('../../../assets/images/header3.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0 100px;
+}
+.slider-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.slider-content{
+  z-index: 99;
+  position: relative;
+}
+#slider-wrap .slidercontent-wrap {
+  text-align: center;
+  padding: 80px 20%;
+  min-height: 60vh;
+  max-height: 60vh;
+  max-width: 100%;
+  z-index: 999;
+}
+#slider-wrap .slidercontent-wrap .bismillah-img {
+  width: 138px;
+  margin: 0 auto 35px;
+}
+#slider-wrap .slidercontent-wrap .bismillah-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#slider-wrap .slidercontent-wrap h2 {
+  font-family: "NexaBold";
+  font-size: 65px;
+  line-height: 73px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+/* Controls */
+#slider-wrap .bx-controls.bx-has-pager {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+}
+#slider-wrap .bx-pager-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+#slider-wrap .bx-pager-item .bx-pager-link {
+  background: url('../../../assets/images/slide-controls.png') no-repeat left top;
+  background-size: 100% auto;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  font-size: 0;
+  line-height: 1;
+}
+#slider-wrap .bx-pager-item .bx-pager-link.active {
+  background: url('../../../assets/images/slide-control-active.png') no-repeat left top;
+  background-size: 100% auto;
+}
+
+.bx-wrapper{
+  border: none;
+  background: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  position: static;
+}
+.bx-wrapper .bx-pager{
+  bottom: 0;
+}

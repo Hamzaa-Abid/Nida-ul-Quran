@@ -1,0 +1,140 @@
+#welcome-wrap {
+  background: #fff url(../../../assets/images/prayertime-bg.jpg) no-repeat
+    center top;
+  background-size: 100% auto;
+  padding: 90px 0 60px;
+}
+#welcome-wrap .welcomecontent {
+  float: left;
+  width: 60%;
+}
+#welcome-wrap .welcomecontent h3::before {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 75%;
+  margin-bottom: 5px;
+}
+#welcome-wrap .welcomecontent h3 {
+  color: #2e6d99;
+  font-size: 28px;
+  line-height: 38px;
+  font-family: "NexaLight";
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+#welcome-wrap .welcomecontent h3::after {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 75%;
+  margin-top: 5px;
+}
+#welcome-wrap .welcomecontent .numberdetail {
+  padding-bottom: 30px;
+}
+#welcome-wrap .welcomecontent .numberdetail li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+#welcome-wrap .welcomecontent .numberdetail li span {
+  display: block;
+  font-family: "Philosopher-Bold";
+  font-size: 65px;
+  line-height: 1;
+  color: #333;
+  margin-bottom: 5px;
+}
+#welcome-wrap .welcomecontent .numberdetail li em {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #848484;
+}
+#welcome-wrap .welcome-prayertiming {
+  float: right;
+  width: 35%;
+}
+#welcome-wrap .welcome-prayertiming {
+  background: #fff;
+  box-shadow: 10px 0 30px rgba(45, 45, 45, 0.1);
+}
+#welcome-wrap .welcome-prayertiming .timing-head {
+  background-image: linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -moz-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    rgb(6, 165, 143) 0%,
+    rgb(46, 108, 150) 100%
+  );
+  padding: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+  -moz-border-radius: 10px 0 10px 0;
+  -webkit-border-radius: 10px 0 10px 0;
+  -o-border-radius: 10px 0 10px 0;
+  border-radius: 10px 0 10px 0;
+}
+#welcome-wrap .welcome-prayertiming .timing-head h3 {
+  color: #fff;
+  font-family: "NexaBold";
+  font-size: 30px;
+}
+#welcome-wrap .welcome-prayertiming .dates-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#welcome-wrap .welcome-prayertiming .dates-content p {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: #222;
+}
+#welcome-wrap .welcome-prayertiming .dates-content .islamic-date {
+  color: #2e6d99;
+  font-family: "NexaBold";
+}
+#welcome-wrap .welcome-prayertiming .prayertimes {
+  padding-bottom: 20px;
+}
+#welcome-wrap .welcome-prayertiming .prayertimes li {
+  display: block;
+  padding: 5px 70px;
+  background: url(../../../assets/images/prayertime-libg.png) repeat-y;
+}
+#welcome-wrap .welcome-prayertiming .prayertimes li span {
+  display: inline-block;
+  color: #333333;
+  font-family: "NexaBold";
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url(../../../assets/images/prayertimeli-list.png) no-repeat left
+    center;
+  padding: 5px 0 5px 40px;
+}
+#welcome-wrap .welcome-prayertiming .prayertimes li em {
+  font-style: normal;
+  color: #333333;
+  font-family: "NexaBold";
+  font-size: 18px;
+  vertical-align: middle;
+}
+#welcome-wrap .welcome-prayertiming .prayertimes li:nth-child(even) {
+  padding: 7px 70px;
+  background: no-repeat;
+}

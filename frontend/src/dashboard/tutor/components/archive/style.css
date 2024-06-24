@@ -1,0 +1,128 @@
+.archive-page h2{
+	color: #2b2b2b;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.achivetop-content{
+	padding-bottom: 80px;
+}
+.archivewrap-content{
+	padding: 0 30px 50px 30px;
+}
+.archivewrap-content .video-wrap{
+	height: 385px;
+}
+.archivewrap-content .video-wrap img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.achivetop-content .archivetop-left{
+	float: left;
+	width: 53%;
+	margin-right: 15px;
+}
+.achivetop-content .archivetop-right{
+	float: right;
+	width: 45%;
+}
+.archivetop-right .white-box{
+	background: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+	padding:15px;
+	height: 355px;
+}
+.archivetop-right h3{
+	color: #316a96;
+	font-family: 'NexaBold';
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.archivetop-right h4{
+	color: #00a58e;
+	font-family: 'NexaBold';
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.archivetop-right p{
+	font-size: 14px;
+	color: #2b2b2b;
+	line-height: 20px;
+}
+.box-bottom .boxbottom-left{
+	float: left;
+	width: 60%;
+	margin-right: 15px;
+}
+.box-bottom .boxbottom-left h5{
+	color: #2b2b2b;
+	font-family: 'NexaBold';
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.box-bottom .boxbottom-right{
+	float: right;
+	width: 30%;
+}
+.box-bottom .starrating li{
+	display: inline-block;
+}
+.box-bottom .starrating li.checked{
+	color: #00a58e;
+}
+.box-bottom .boxbottom-right a{
+	color: #fff;
+	font-family: 'NexaBold';
+	font-size: 14px;
+	text-decoration: none;
+	background: #316a96;
+	text-align: center;
+	padding: 10px 10px 8px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #316a96;
+	display: block;
+}
+.box-bottom .boxbottom-right a:hover{
+	background: none;
+	color: #316a96;
+}
+.archivebot-content{
+	float: left;
+	width: 24%;
+    margin-right: 10px;
+}
+.archivebot-content:last-child{
+	margin: 0;
+}
+.archivebot-content .archivebot{
+	background: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.archivebot-content .arvhivebot-videowrap img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.archivebot-content .archivebot a{
+	text-decoration: none;
+	display: block;
+}
+.archivebot-content .archivebot h5{
+	color: #316a96;
+	font-family: 'NexaBold';
+	font-size: 16px;
+	padding: 10px 10px 7px 10px;
+}
+.archivebot-content .archivebot span{
+	display: block;
+	color: #00a58e;
+	font-family: 'NexaBold';
+	font-size: 14px;
+	padding: 0 10px 10px 10px;
+}
+.archivebot-content .archivebot a:hover{
+	opacity: 0.8;
+}

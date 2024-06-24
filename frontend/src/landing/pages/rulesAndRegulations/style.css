@@ -1,0 +1,15 @@
+.innerpage .simplestep-heading > p{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+
+}
+#banner-wrap2{
+	background-size: cover !important;
+	background-position: center top !important;
+	background-repeat: no-repeat !important;
+	height: 52vh;
+	text-align: center;
+    position: relative;
+    background-image: url('../../../assets/images/about-banner.png');
+}

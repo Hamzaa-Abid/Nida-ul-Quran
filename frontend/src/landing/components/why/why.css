@@ -1,0 +1,140 @@
+#why-alkitaab {
+  padding: 80px 0;
+  background: #f0f0ef url(../../../assets/images/whykitab-bg.jpg) no-repeat center top;
+  background-size: 100% auto;
+}
+#why-alkitaab h2 {
+  text-align: center;
+  background: url(../../../assets/images/kitab-icon1.png) no-repeat center top;
+  padding-top: 70px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#why-alkitaab .kitaab-box-wrap {
+  margin-bottom: 25px;
+  text-align: center;
+}
+#why-alkitaab .kitaab-box {
+  display: inline-block;
+  width: 27%;
+  background: #fff;
+  padding: 55px 25px;
+  text-align: center;
+  margin-right: 25px;
+  vertical-align: top;
+  min-height: 273px;
+  position: relative;
+  transition: all 0.25s;
+}
+#why-alkitaab .kitaab-box .kitaab-icon {
+  margin: 0 auto 20px;
+  width: 50px;
+  transition: all 0.25s;
+}
+#why-alkitaab .kitaab-box .kitaab-icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.25s;
+  opacity: 1;
+}
+#why-alkitaab .kitaab-box .kitaab-icon .img-white {
+  display: none;
+  transition: all 0.25s;
+  opacity: 0;
+}
+#why-alkitaab .kitaab-box h3 {
+  color: #222;
+  font-family: "NexaBold";
+  font-size: 30px;
+  background: url(../../../assets/images/kitab-icon8.png) no-repeat center bottom;
+  background-size: 90px auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  transition: all 0.25s;
+}
+#why-alkitaab .kitaab-box p {
+  font-family: "NexaLight";
+  font-size: 22px;
+  line-height: 34px;
+  transition: all 0.25s;
+}
+#why-alkitaab .kitaab-box a {
+  display: inline-block;
+  color: #04a38f;
+  font-family: "NexaBold";
+  font-size: 18px;
+  text-decoration: none;
+  transition: none;
+  transition: all 0.25s;
+}
+#why-alkitaab .kitaab-box * {
+  position: relative;
+}
+#why-alkitaab .kitaab-box:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -moz-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  background-image: -ms-linear-gradient(
+    180deg,
+    rgb(46, 108, 150) 0%,
+    rgb(6, 165, 143) 100%
+  );
+  transition: all 0.25s;
+  opacity: 0;
+  z-index: 0;
+}
+#why-alkitaab .kitaab-box:hover:before{
+  opacity: 1;
+}
+#why-alkitaab .kitaab-box:hover {
+  
+  box-shadow: 0px 0px 10px 4px rgba(44, 112, 152, 0.5);
+}
+#why-alkitaab .kitaab-box:hover .kitaab-icon img {
+  display: none;
+  transition: all 0.25s;
+  opacity: 0;
+}
+#why-alkitaab .kitaab-box:hover .kitaab-icon .img-white {
+  display: block;
+  transition: all 0.25s;
+  opacity: 1;
+}
+#why-alkitaab .kitaab-box:hover h3 {
+  color: #fff;
+  background: url(../../../assets/images/kitab-icon8-white.png) no-repeat center bottom;
+  background-size: 90px auto;
+}
+#why-alkitaab .kitaab-box:hover p {
+  color: #fff;
+}
+#why-alkitaab .kitaab-box:hover a {
+  color: #fff;
+  text-decoration: underline;
+}
+#why-alkitaab .mr-0 {
+  margin-right: 0;
+}
+.why-kitaab-row{
+  display: flex;
+  justify-content: center;
+}

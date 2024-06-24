@@ -1,0 +1,151 @@
+
+#footer{
+	background:#fff url('../../../assets/images/footer-bg.png') no-repeat center top;
+	background-size: cover;
+	padding: 200px 0 50px;
+}
+.footertop-section{
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #242220;
+}
+.footertop-section .footer-logo{
+	margin-bottom: 25px;
+}
+.footertop-section .footer-logo a{
+	display: block;
+	background: url('../../../assets/images/footerlogo.png') no-repeat center top;
+	background-size: auto;
+	/* width: 186px; */
+	height: 134px;
+	margin: 0 auto;
+}
+.footertop-section .container > p{
+	color: #cccccc;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 0 20%;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'NexaBold';
+}
+.footertop-section .links-box{
+	float: left;
+	width: 29%;
+	margin-right: 20px;
+}
+.footertop-section .links-box:first-child{
+	width: 18%;
+}
+.footertop-section .links-box:last-child{
+	width: 18%;
+	margin: 0;
+}
+.footertop-section .links-box h5{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-family: 'NexaBold';
+}
+.footertop-section .links-box li{
+	display: block;
+	margin-bottom: 10px;
+}
+.footertop-section .links-box li a{
+	color: #777777;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: 'NexaBold';
+}
+.footertop-section .links-box li:hover a{
+	color: #fff;
+}
+.footertop-section .links-box p{
+	color: #777777;
+	font-size: 15px;
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+.footertop-section .links-box p a{
+	color: #777777;
+	font-size: 15px;
+	text-decoration: none;
+}
+.footertop-section .links-box p a:hover{
+	color: #fff;
+}
+.footertop-section .socialmedia{
+	padding-top: 15px;
+}
+.footertop-section .socialmedia a{
+	display: inline-block;
+	margin-right: 5px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+	background: #333333;
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.footertop-section .socialmedia a i{
+	color: #fff;
+	opacity: 0.5;
+}
+.footertop-section .socialmedia a:hover{
+	background: #05a48e;
+}
+.footertop-section .socialmedia a:hover i{
+	opacity: 1;
+}
+.footerbottom-content{
+	padding: 0 10% 30px;
+}
+.footerbottom-content .content-heading{
+	float: left;
+	width: 35%;
+}
+.footerbottom-content .email-field{
+	float: right;
+	width: 63%;
+	position: relative;
+}
+.footerbottom-content .content-heading h3{
+	font-size: 22px;
+	color: #fff;
+	font-family: 'NexaBold';
+	margin-top: 12px;
+}
+.footerbottom-content .email-field input{
+	background: #222222;
+	border: none;
+	padding: 15px 155px 15px 15px;
+	color: #777777;
+	font-size: 15px;
+	box-shadow: none !important;
+	box-sizing: border-box;
+	height: 49px;
+}
+.footerbottom-content .email-field .default-btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 15px 35px;
+	font-size: 15px;
+	height: 49px;
+	cursor: pointer;
+	border: none;
+}
+.footerbottom-content .email-field .default-btn:hover{
+	color: #fff;
+}
+.footerbottom-section p{
+	text-align: center;
+	color: #5b5a58;
+	font-size: 15px;
+	margin-bottom: 0;
+	font-family: 'NexaBold';
+}

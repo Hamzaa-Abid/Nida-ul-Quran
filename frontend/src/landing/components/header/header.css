@@ -1,0 +1,113 @@
+
+.topbar-wrap{
+    background:url('../../../assets/images/topbar-bg.png') repeat-x;
+    height: 50px;
+	/* box-shadow: 15px 0 30px rgba(45, 45, 45, 0.3); */
+}
+.topbar-wrap .topbar-content .topbar-left{
+	float: left;
+	width: 70%;
+}
+.topbar-wrap .topbar-content .topbar-right{
+	float: right;
+	width: 30%;
+}
+.topbar-wrap .topbar-ul{
+	padding: 15px 0;
+}
+.topbar-wrap .topbar-ul li{
+	display: inline-block;
+	margin-right: 22px;
+	font-family: 'NexaBold';
+	color: #fff;
+	font-size: 16px;
+	line-height: 1;
+}
+.topbar-wrap .topbar-ul li span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.topbar-wrap .topbar-ul li i{
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.topbar-wrap .topbar-ul li:last-child{
+	margin-right: 0;
+}
+.topbar-wrap .connectbtn-wrap{
+	text-align: right;
+}
+.topbar-wrap .connectbtn-wrap li{
+	display: inline-block;
+}
+.topbar-wrap .connectbtn-wrap li a{
+	display: block;
+	padding:16px 32px 10px;
+	text-transform: uppercase;
+	font-family: 'NexaBold';
+	font-size: 22px;
+	line-height: 1;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.topbar-wrap .connectbtn-wrap li:hover a{
+	background: #222222;
+}
+.header-wrap{
+	padding:20px 0;
+}
+.header-wrap .header-left{
+	float: left;
+	width: 35%;
+}
+.header-wrap .header-middle{
+	float: left;
+	width: 30%;
+}
+.header-wrap .header-right{
+	float: right;
+	width: 35%;
+}
+.header-wrap .header-content ul{
+	padding: 40px 0;
+}
+.header-wrap .header-content li{
+	display: inline-block;
+	margin-right: 30px;
+}
+.header-wrap .header-content li a{
+	font-family: 'NexaBold';
+	font-size: 19px;
+	line-height: 1;
+	color: #222;
+	text-decoration: none;
+	display: block;
+	text-transform: capitalize;
+}
+.header-wrap .header-content li:last-child{
+	margin: 0;
+}
+.header-wrap .header-content li:hover a{
+	color: #0ba393;
+}
+.activeAncher a{
+	color: #0ba393;
+}
+.header-wrap .header-content .header-logo{
+	margin-right: 20px;
+}
+.header-wrap .header-content .header-logo a{
+	display: block;
+	background: url('../../../assets/images/logo.png') no-repeat center top;
+	background-size: 100% auto;
+	width: 200px;
+	height: 102px;
+	margin: 0 auto;
+}
+
+ul li a{
+	cursor: pointer;
+}

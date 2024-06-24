@@ -1,0 +1,368 @@
+
+/* Edit Page */
+.edit-page{
+	padding: 30px;
+	padding-top: 0;
+	text-align: right;
+}
+.edit-page h3{
+	color: #336699;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-family: 'Nexa-XBold';
+	text-align: left;
+}
+.editpage-topcontent .edittop-left{
+	float: left;
+	width: 28%;
+	margin-right: 20px;
+}
+.editpage-topcontent .edittop-right{
+	float: right;
+	width: 70%;
+}
+.edit-page .white-box{
+	background: #fff;
+	padding: 18px 20px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+.edit-page .white-box.text-right{
+	text-align: right;
+}
+.edit-page .white-box.text-right label{
+	text-align: left;
+}
+.edit-page .white-box.text-right > a{
+	text-transform: capitalize;
+	text-decoration: none;
+	display: inline-block;
+}
+.edit-page label{
+	display: block;
+	color: #00a58e;
+	font-size: 16px;
+	font-family: 'NexaBold';
+	margin-bottom: 10px;
+}
+.profilepicture-wrap{
+	position: relative;
+}
+.profilepicture-wrap .profile-pic {
+    width: 100%;
+    height: 100%;
+	display: block;
+	object-fit: cover;
+}
+/* .profilepicture-wrap .file-upload {
+    display: none;
+} */
+.profilepicture-wrap .circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+	border: 8px solid rgba(255, 255, 255, 0.7);
+	margin: 0 auto 25px;
+}
+.profilepicture-wrap img {
+    width: 100%;
+    height: auto;
+}
+.profilepicture-wrap .p-image {
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.profilepicture-wrap .upload-button {
+	font-size: 14px;
+    font-family: 'Nexa-Regular';
+	padding: 8px 40px 4px;
+	display: inline-block;
+}
+.file-upload::-webkit-file-upload-button {
+	visibility: hidden !important;
+	width: 200px;
+	text-align: center;
+}
+.file-upload::-moz-file-upload-button {
+	visibility: hidden !important;
+	width: 200px;
+	text-align: center;
+}
+.file-upload {
+	background: #fff;
+    border: none;
+	box-shadow: none;
+	height: 50px;
+    width: 200px;
+    margin: 0 auto;
+}
+.file-upload::before {
+	background-color: #01a982;
+	color: #fff;
+	content: 'Upload';
+	width: 100%;
+	display: inline-block;
+	outline: none;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	user-select: none;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+    font-family: 'Nexa-Regular';
+	padding: 8px 40px;
+}
+.file-upload:focus {
+	box-shadow: none;
+  }
+.profilepicture-wrap p{
+	font-size: 15px;
+	text-align: center;
+	color: #2b2b2b;
+	margin: 0 0 9px 0;
+}
+.edit-row{
+	margin-bottom: 15px;
+}
+.edit-row .editcol-left{
+	width: 49%;
+	float: left;
+	margin-right: 10px;
+}
+.edit-row .editcol-right{
+	float: right;
+	width: 49%;
+}
+.white-box .edit-row:last-child{
+	margin-bottom: 0;
+}
+.edit-row.three-col .editcol-left{
+	width: 32.3%;
+	float: left;
+	margin-right: 15px;
+}
+.edit-row.three-col .editcol-left:last-child{
+	margin: 0;
+}
+
+.white-box .checkbox-button {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	margin-right: 10%;
+	margin-top: 10px;
+}
+.white-box input[type=checkbox] {
+	box-sizing: border-box;
+	padding: 0;
+	height: 100%;
+}
+.white-box .checkbox-button__input {
+	opacity: 0;
+	position: absolute;
+	text-align: unset !important;
+}
+.white-box .checkbox-button__control {
+	position: relative;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background-color: inherit;
+	color: #01a982;
+	border: 4px solid #01a982;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+.white-box .checkbox-button__input:checked+.checkbox-button__control:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 13px;
+	height: 13px;
+	background-color: #01a982;
+}
+.white-box .checkbox-button__input:checked+.checkbox-button__control {
+	border-color: #01a982;
+}
+.white-box .checkbox-button__control {
+	transform: scale(0.75);
+}
+.white-box .checkbox-button__label{
+	color: #2b2b2b;
+	font-size: 17px;
+	font-family: 'NexaBold';
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+.edit-page button.green-btn{
+	padding: 10px 50px 6px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Nexa-Regular';
+	font-size: 16px;
+}
+
+textarea::-webkit-scrollbar {
+	width: 5px;
+}
+textarea::-webkit-scrollbar-track {
+	background: #dbdbdb;
+}
+textarea::-webkit-scrollbar-thumb {
+	background-color: #009999;
+	border-radius: 6px;
+	border: 1px solid #d6d5d5;
+}
+
+
+.modal-window {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+
+  div.window-wrapper {
+	width: 650px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	background: #ffffff;
+	z-index: 9999999;
+  }
+  .modalhead{
+	background-image: linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -moz-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	padding: 20px;
+	text-align: center;
+  }
+  .modalhead h2{
+	  color: #fff;
+	  font-size: 35px;
+	  line-height: 1;
+  }
+  .modalbody{
+	  background: #fff;
+	  padding:30px 40px;
+  }
+  .modalbody p{
+	  color: #8c9197;
+	  font-size: 16px;
+	  line-height: 1;
+	  margin-bottom: 15px;
+  }
+  .modalbody .inputwrap{
+	  position: relative;
+	  text-align: left;
+  }
+  .modalbody .inputwrap input{
+	  display: block;
+	  color: #c6c6c6;
+	  font-size: 15px;
+	  padding:23px 15px 18px 60px;
+	  margin-bottom: 10px;
+	  line-height: 1;
+  }
+  .modalbody .inputwrap span{
+	  display: block;
+	  background: url('../../../assets/images/lock.png') no-repeat left center;
+	  background-size: 100% auto;
+	  width: 32px;
+	  height: 20px;
+	  position: absolute;
+	  left: 15px;
+	  top: 20px;
+  }
+  .modalbody .inputwrap.old span{
+	background: url('../../../assets/images/old-pass.png') no-repeat left center;
+	background-size: 100% auto;
+  }
+  .modalbody form{
+	  text-align: center;
+  }
+  .modalbody form button{
+	  cursor: pointer;
+	  margin-top: 20px;
+	  color: #fff;
+    font-size: 22px;
+	padding: 20px 70px 18px;
+	font-family: 'Nexa-Regular';
+	letter-spacing: 2px;
+	background-image: linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -moz-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgba(0,165,142,0.99608) 0%, rgb(49,106,150) 100%);
+  }
+  .modal-close{
+	color: #fff;
+	line-height: 50px;
+	font-size: 80%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 10px;
+	width: 70px;
+	text-decoration: none;
+  }
+  .modal-close:hover {
+	color: rgb(102, 1, 1);
+	cursor: pointer;
+  }
+
+  .__topbar-header a#password-btn {
+    padding: 10px 50px;
+    cursor: pointer;
+    margin: 0 0 20px;
+    font-size: 16px;
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-family: "NexaBold";
+    line-height: 2.2;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+	background-image: linear-gradient( 180deg, rgb(46, 108, 150) 0%, rgb(6, 165, 143) 100% );
+  }	
+  .__topbar-header{
+	  display: flex;
+	  justify-content: space-between;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+  }
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+	position: relative;
+	background-color: #edf0f8;
+	border: none;
+    border-top: 1px solid #d9d9d9;
+    height: 50px;
+    padding: 11px;
+  }
+  .ant-select-multiple .ant-select-selector{
+	background-color: #edf0f8;
+	height: 50px;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+  }
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input{
+	  height: 50px
+  }

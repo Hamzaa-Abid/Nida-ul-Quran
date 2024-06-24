@@ -1,0 +1,37 @@
+.dashboardWrapper{
+    font-family: 'Nexa-Regular';
+	font-size:14px;
+	color:#606060;
+	line-height:1.3;
+	font-weight:400;
+    letter-spacing: 0.6px;
+    background: #edf0f8;
+}
+
+h2{
+	color: #1d232d;
+	font-family: 'NexaBold';
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+
+a{
+	-webkit-transition: 0.1s ease-out 0.1s;
+	-moz-transition: 0.1s ease-out 0.1s;
+	transition: 0.1s ease-out 0.1s;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.align-right{
+	float:right;
+	margin:0 0 18px 30px;
+	border:1px solid #dcdcdc;
+}
+.align-left{
+	float:left;
+	margin:0 30px 18px 0;
+	border:1px solid #dcdcdc;
+}

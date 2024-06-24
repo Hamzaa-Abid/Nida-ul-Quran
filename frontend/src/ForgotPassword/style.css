@@ -1,0 +1,11 @@
+.transform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+.popupcontent{
+    box-shadow: 0 0 20px rgba(0,0,0,0.11);
+
+}

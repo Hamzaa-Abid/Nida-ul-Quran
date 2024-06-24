@@ -1,0 +1,10 @@
+.menu{
+    padding-left: 80px;
+    -webkit-transition: width .3s; 
+    transition: width .3s; 
+}
+.collapse-menu{
+    padding-left: 250px;
+    -webkit-transition: width .3s; 
+    transition: width .3s; 
+}

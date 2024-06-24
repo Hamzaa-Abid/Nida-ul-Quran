@@ -1,0 +1,24 @@
+
+.verify-wrapper{
+    padding: 20vh 0;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(220, 247, 255);
+    z-index: 9999999999;
+}
+.verify-btn{
+    background-color: aquamarine;
+    color: black;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+.verify-btn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,146 @@
+#registertutor {
+  background: #eeeeee url(../../../assets/images/registertour-bg.png) no-repeat center top;
+  background-size: cover;
+  padding: 65px 0;
+  text-align: center;
+}
+#registertutor h2 {
+  text-align: center;
+  background: url(../../../assets/images/kitab-icon1.png) no-repeat center top;
+  padding-top: 70px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+.registeraccordian-section {
+  background: #fff;
+}
+#registertutor .registercontent-left {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+#registertutor .registercontent-right {
+  float: right;
+  width: 50%;
+}
+.registercontent-left .registerimg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.registercontent-left .img-content {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.registercontent-left .img-content h3 {
+  color: #fff;
+  font-family: "NexaBold";
+  font-size: 48px;
+}
+.registercontent-right .registerright-content {
+  background: #fff;
+  padding: 30px 50px;
+}
+.registercontent-right .registerright-content li::before {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.registercontent-right .registerright-content li {
+  display: block;
+}
+.registercontent-right .registerright-content li::after {
+  content: "";
+  border: 0.5px dotted #3d3d3d;
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+.registercontent-right .registerright-content li h4 {
+  font-family: "NexaBold";
+  font-size: 34px;
+  color: #000;
+  font-weight: normal;
+  cursor: pointer;
+  text-align: left;
+}
+.registercontent-right .registerright-content li h4::after {
+  content: "\f055";
+  display: block;
+  float: right;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 18px;
+}
+.registercontent-right .registerright-content li p {
+  margin: 5px 0 20px 0;
+  display: none;
+  text-align: left;
+  font-family: "NexaLight";
+  font-size: 22px;
+  line-height: 30px;
+}
+.registercontent-right .registerright-content li.active h4 {
+  font-size: 48px;
+  color: #05a48e;
+}
+
+#registertutor .default-btn {
+  margin-top: 50px;
+}
+.Collapsible{
+  color: #05a48e;
+  text-align: left;
+  font-family: "NexaBold";
+  font-size: 34px;
+  }
+  .Collapsible:hover{
+    cursor: pointer;
+  }
+  .register-wrap .Collapsible__trigger{
+    position: relative;
+    display: block;
+    color: #000;
+    transition: all 0.25s;
+  }
+  .register-wrap .Collapsible__trigger:before{
+    content: '\f067';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    font-size: 18px;
+    color: #000;
+    top: 5px;
+    right: -1px;
+    width: 33px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 100%;
+    transition: all 0.25s;
+  }
+  .register-wrap .Collapsible__trigger:hover:before,
+  .register-wrap .Collapsible__trigger.is-open:before{
+    color: #05a48e;
+    border-color: #05a48e;
+  }
+  .register-wrap .Collapsible__trigger.is-open:before{
+    content: '\f068';
+  }
+  .register-wrap .Collapsible__trigger:hover,
+  .register-wrap .Collapsible__trigger.is-open{
+    color: #05a48e;
+  }
+  .ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+    padding: 12px 16px;
+    padding-right: 40px;
+    text-align: left;
+    font-size: 24px;
+}

@@ -1,0 +1,114 @@
+#current-tutor-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.current-tutor-left {
+  flex: 1;
+  padding: 20px 25px;
+}
+.current-tutor-right {
+  flex: 1;
+  padding: 20px 25px;
+}
+.reusedbox-content {
+  background: #fff;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.reusedbox-content .image-wrap {
+  float: left;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #00a58e;
+  margin-right: 10px;
+}
+.reusedbox-content .image-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.box-padding {
+  padding: 25px 20px !important;
+}
+.reusedbox-content .boxcontent {
+  float: left;
+}
+.currenttutuors-tab .reusedbox-content .boxcontent h4 {
+  color: #316a96;
+  font-size: 17px;
+  margin: 0 0 3px 0;
+}
+.currenttutuors-tab .reusedbox-content .boxcontent span,
+.currenttutuors-tab .reusedbox-content .boxcontent em {
+  margin-bottom: 3px;
+}
+.reusedbox-content .boxcontent em {
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  color: #00a58e;
+  font-family: "Nexa-Regular";
+  font-style: normal;
+  line-height: 1;
+}
+.accept-btn {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 10px;
+  background-color: rgb(83, 201, 128);
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+}
+.reject-btn {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(163, 45, 30);
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+}
+.accept-btn:hover,
+.reject-btn:hover {
+  cursor: pointer;
+}
+.tab-wrapper {
+  min-height: 70vh;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.tab-wrapper .current-tutor-left {
+  border-right: 1px solid #00a58e;
+}
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  /* background-color: #00a58e; */
+  color: #00a58e;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  background: #02a28e !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffffff !important;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  color: #ffffff !important;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #ffffff !important;
+}

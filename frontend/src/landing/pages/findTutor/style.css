@@ -1,0 +1,389 @@
+#findstudent-page {
+  padding: 70px 0;
+}
+
+#findstudent-page .container-fluid {
+  padding: 0 20px;
+}
+#findstudent-page .sidebar {
+  float: left;
+  width: 23%;
+  margin-top: 30px;
+}
+#findstudent-page .sidebar h3 {
+  color: #00a58e;
+  font-size: 18px;
+  font-family: "NexaBold";
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+#findstudent-page .maincontent {
+  float: right;
+  width: 75%;
+}
+.maincontent .searchsection {
+  margin-bottom: 30px;
+}
+.maincontent .searchsection span {
+  display: inline-block;
+  width: 500px;
+  position: relative;
+}
+.maincontent .searchsection a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #00a58e;
+  font-family: "NexaBold";
+  vertical-align: bottom;
+  line-height: 1;
+}
+.maincontent .searchsection a:hover {
+  color: #222222;
+}
+.maincontent .searchsection span input {
+  background: #edf0f8;
+  padding: 16px 140px 16px 50px;
+  color: #1d232d;
+  border: none;
+  border-radius: 0;
+  font-family: "NexaLight";
+  box-shadow: none;
+  box-sizing: border-box;
+}
+.maincontent .searchsection span i {
+  position: absolute;
+  left: 13px;
+  top: 14px;
+  color: #a8aab0;
+  font-size: 20px;
+}
+.maincontent .searchsection span .default-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px 35px;
+  font-size: 14px;
+  height: 49px;
+  cursor: pointer;
+  border: none;
+  background: #00a58e;
+}
+
+.maincontent .sessionstab-content .reusedbox-content {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.maincontent .sessionstab-content .reusedbox-content .image-wrap {
+  margin-right: 20px;
+}
+.maincontent .sessionstab-content .reusedbox-content .boxcontent {
+  width: 68%;
+}
+.maincontent .sessionstab-content .reusedbox-content .box-otherlinks {
+  width: auto;
+}
+.maincontent .reusedbox-content {
+  padding: 25px 0;
+  border-bottom: 1px solid #8e9295;
+}
+.maincontent .reusedbox-content:last-child {
+  border-bottom: none;
+}
+.maincontent .reusedbox-content .image-wrap {
+  float: left;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #00a58e;
+  margin-right: 10px;
+}
+.maincontent .reusedbox-content .image-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.maincontent .reusedbox-content .boxcontent {
+  float: left;
+  width: 275px;
+}
+.maincontent .reusedbox-content .boxcontent p {
+  margin: 10px 0 5px 0;
+  color: #222222;
+  font-size: 15px;
+  line-height: 1;
+}
+.maincontent .reusedbox-content .boxcontent p a {
+  color: #316a96;
+  text-decoration: none;
+  font-family: "NexaBold";
+}
+.maincontent .reusedbox-content .boxcontent p a:hover {
+  text-decoration: underline;
+}
+.maincontent .reusedbox-content .boxcontent span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #222222;
+  font-size: 15px;
+  font-family: "NexaBold";
+  line-height: 1;
+}
+.maincontent .reusedbox-content .boxcontent em {
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  color: #00a58e;
+  font-family: "NexaLight";
+  font-style: normal;
+  line-height: 1;
+}
+.maincontent .reusedbox-content .boxcontent > a {
+  margin-top: 5px;
+  display: inline-block;
+}
+.maincontent .reusedbox-content .box-otherlinks {
+  float: right;
+  width: 90px;
+  text-align: right;
+}
+.maincontent .reusedbox-content .box-otherlinks li {
+  display: inline-block;
+  margin-left: 4px;
+}
+.maincontent .reusedbox-content .box-otherlinks li:last-child {
+  margin: 0;
+}
+.maincontent .reusedbox-content .box-otherlinks li a.bluebox,
+.maincontent .reusedbox-content .box-otherlinks li a.greenbox {
+  background: #316a96;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: inline-block;
+}
+.maincontent .reusedbox-content .box-otherlinks a img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 3px;
+}
+.maincontent .reusedbox-content .box-otherlinks li a.greenbox {
+  background: #00a58e;
+}
+.maincontent .reusedbox-content .box-otherlinks li:hover a {
+  opacity: 0.7;
+}
+.maincontent .sessionstab-content .box-otherlinks .green-btn {
+  display: block;
+  padding: 10px 10px 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "NexaLight";
+  margin-top: 175px;
+}
+.green-btn-disable {
+  display: block;
+  padding: 10px 10px 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "NexaLight";
+  margin-top: 175px;
+  width: auto;
+  color: white !important;
+  background: #316a96 !important;
+}
+.maincontent .sessionstab-content .boxcontent h4 {
+  color: #316a96;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+  font-family: "NexaBold";
+}
+.maincontent .sessionstab-content .boxcontent .starrating {
+  margin-bottom: 15px;
+}
+.maincontent .sessionstab-content .boxcontent .starrating li {
+  display: inline-block;
+}
+.maincontent .sessionstab-content .boxcontent .starrating li.checked {
+  color: #00a58e;
+}
+.maincontent .sessionstab-content .boxcontent span {
+  font-family: "NexaLight";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 8px;
+  border-bottom: 1px solid;
+  text-align: right;
+}
+.maincontent .sessionstab-content .boxcontent em {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #222;
+  font-family: "NexaBold";
+  line-height: 22px;
+  font-weight: bolder;
+}
+.searcfilter-box {
+  background: #edf0f8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.searcfilter-box h4 {
+  color: #222222;
+  font-size: 18px;
+  font-family: "NexaBold";
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.searcfilter-box .checkbox-button {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 10px;
+}
+.searcfilter-box input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.searcfilter-box .checkbox-button__input {
+  opacity: 0;
+  position: absolute;
+  text-align: unset !important;
+  cursor: pointer;
+}
+.searcfilter-box .checkbox-button__control {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: inherit;
+  color: #01a982;
+  border: 3px solid #01a982;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+}
+.searcfilter-box
+  .checkbox-button__input:checked
+  + .checkbox-button__control:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #01a982;
+}
+.searcfilter-box .checkbox-button__input:checked + .checkbox-button__control {
+  border-color: #01a982;
+}
+.searcfilter-box .checkbox-button__control {
+  transform: scale(0.75);
+}
+.searcfilter-box .checkbox-button__label {
+  color: #222;
+  font-size: 18px;
+  font-family: "NexaLight";
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.searcfilter-box select {
+  display: block;
+  width: 100%;
+  border: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #222;
+  font-size: 16px;
+  font-family: "NexaBold";
+  box-sizing: border-box;
+  text-align: justify !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff url("../../../assets/images/down-green.png") no-repeat 96%
+    center / 12px 12px;
+  cursor: pointer;
+  padding: 12px 30px 11px 15px;
+  box-shadow: none;
+}
+.tutorfind .rate-section {
+  padding-top: 30px;
+}
+.tutorfind .rate-section li {
+  display: inline-block;
+  width: 24%;
+  margin-right: 22px;
+  vertical-align: top;
+}
+.tutorfind .rate-section li:first-child {
+  width: 15%;
+}
+.tutorfind .rate-section li:last-child {
+  margin-right: 0;
+}
+.tutorfind .rate-section li em {
+  display: block !important;
+  font-family: "NexaLight" !important;
+  font-size: 14px !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+  margin-bottom: 10px !important;
+}
+.tutorfind .rate-section li span {
+  display: block !important;
+  color: #00a58e !important;
+  font-family: "NexaBold" !important;
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
+.tutorfind p {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #222222 !important;
+  margin: 10px 0 !important;
+  font-family: "NexaLight";
+}
+.green-btn-tutor {
+  margin-top: 325px !important;
+}
+em.listItem {
+  text-transform: capitalize;
+}
+.ant-spin-dot-item {
+  background-color: #02a28e;
+}

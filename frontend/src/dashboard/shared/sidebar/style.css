@@ -1,0 +1,346 @@
+.sidebar-menu {
+  background: linear-gradient(
+    -94deg,
+    rgba(0, 165, 142, 0.99608) 0%,
+    rgb(49, 106, 150) 100%
+  );
+  background: -moz-linear-gradient(
+    -94deg,
+    rgba(0, 165, 142, 0.99608) 0%,
+    rgb(49, 106, 150) 100%
+  );
+  background: -webkit-linear-gradient(
+    -94deg,
+    rgba(0, 165, 142, 0.99608) 0%,
+    rgb(49, 106, 150) 100%
+  );
+  background: -ms-linear-gradient(
+    -94deg,
+    rgba(0, 165, 142, 0.99608) 0%,
+    rgb(49, 106, 150) 100%
+  );
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  height: 100%;
+  display: block;
+  padding: 60px 0;
+  overflow-y: scroll;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.sidebar-menu::-webkit-scrollbar {
+  width: 0;
+}
+.sidebar-menu .actionbtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.sidebar-menu .actionbtn a {
+  display: block;
+}
+.sidebar-menu .actionbtn a {
+  background: url("../../../assets/images/close-menu.png") no-repeat;
+  background-size: 100% auto;
+  width: 35px;
+  height: 35px;
+}
+.sidebar-menu .actionbtn a.active {
+  background: url("../../../assets/images/open-menu.png") no-repeat;
+  background-size: 100% auto;
+  width: 35px;
+  height: 35px;
+}
+.sidebar-menu .user-avatar {
+  text-align: center;
+  margin-bottom: 50px;
+  display: block;
+}
+.sidebar-menu .avatar {
+  width: 120px;
+  height: 120px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+.sidebar-menu .avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sidebar-menu .user-avatar h6 {
+  font-family: "NexaBold";
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.sidebar-menu menu {
+  padding: 0 0 30px 0;
+  margin: 0;
+}
+.sidebar-menu menu::after {
+  content: "";
+  background: #79bdc0;
+  display: block;
+  width: 100%;
+  height: 3px;
+  box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.2);
+  margin: 50px 0 20px;
+}
+.sidebar-menu menu li {
+  display: block;
+  margin-bottom: 10px;
+}
+.sidebar-menu menu li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "NexaLight";
+  padding: 25px 20px 20px;
+  display: block;
+  line-height: 1;
+  border-left: 6px solid transparent;
+}
+.sidebar-menu menu li i {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.sidebar-menu menu li.dashboard i {
+  background: url("../../../assets/images/dashboardwhite-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 19px;
+  height: 19px;
+}
+.sidebar-menu menu li a.dashboard.active i {
+  background: url("../../../assets/images/dashboard-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.sidebar-menu menu li.availability i {
+  background: url("../../../assets/images/availibilty-iconwhite.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 19px;
+  height: 19px;
+}
+.sidebar-menu menu li a.availability.active i {
+  background: url("../../../assets/images/availibilty-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+}
+
+.sidebar-menu menu li.parental i {
+  background: url("../../../assets/images/parentalwhite-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 19px;
+  height: 16px;
+}
+.sidebar-menu menu li a.parental.active i {
+  background: url("../../../assets/images/parental-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+.sidebar-menu menu li.archive i {
+  background: url("../../../assets/images/archivewhite-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 16px;
+}
+.sidebar-menu menu li a.archive.active i {
+  background: url("../../../assets/images/archive-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+.sidebar-menu menu li.quran i {
+  background: url("../../../assets/images/quranwhite-icon.png") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 18px;
+}
+.sidebar-menu menu li a.quran.active i {
+  background: url("../../../assets/images/quran-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+.sidebar-menu menu li.messages i {
+  background: url("../../../assets/images/messagewhite-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 17px;
+}
+.sidebar-menu menu li a.messages.active i {
+  background: url("../../../assets/images/message-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+.sidebar-menu menu li.edit i {
+  background: url("../../../assets/images/editprofilewhite-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+  width: 24px;
+  height: 26px;
+}
+.sidebar-menu menu li a.edit.active i {
+  background: url("../../../assets/images/editprofile-icon.png") no-repeat
+    center;
+  background-size: 100% auto;
+}
+.sidebar-menu menu li a.active {
+  border-color: #316a96;
+  color: #03a18e;
+  background: #eaeff3;
+  box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.2);
+  font-family: "NexaBold";
+}
+.sidebar-menu .helpsupport .helpsupprt-img {
+  display: block;
+  width: 60px;
+  overflow: hidden;
+  margin: 0 auto 35px;
+}
+.sidebar-menu .helpsupport img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.sidebar-menu .helpsupport h6 {
+  font-family: "NexaBold";
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sidebar-menu .helpsupport a {
+  text-decoration: none;
+}
+.sidebar-scroll {
+  padding: 1rem;
+  background: white;
+  height: 250px;
+  overflow: auto;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  padding: 18px 12px 12px;
+  color: #2b2b2b;
+  background: #edf0f8;
+  font-size: 15px;
+  box-sizing: border-box;
+  text-align: justify !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #edf0f8 url("../../../assets/images/down-green.png") no-repeat 96%
+    center / 15px 15px;
+  cursor: pointer;
+  padding: 20px 30px 13px 12px;
+}
+input:focus,
+select:focus {
+  border-color: #66afe9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.green-btn {
+  padding: 10px 35px 8px;
+  text-align: center;
+  color: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  float: right;
+  background: #02a28e;
+  border: 1px solid #02a28e;
+  font-family: "NexaBold";
+}
+.green-btn:hover {
+  text-decoration: none;
+  color: #02a28e;
+  background: none;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* p, blockquote, address
+______________________*/
+p {
+  font-family: "Nexa-Regular";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.light-bg {
+  background: #edf0f8;
+}
+
+.collapse {
+  display: none !important;
+  transition: width 0.4s linear 0.4s;
+}
+
+.closesidebar {
+  width: 80px !important;
+}
+.closesidebar .user-avatar {
+  display: none !important;
+}
+.closesidebar menu li a span {
+  display: none !important;
+}
+.closesidebar .helpsupport h6 {
+  display: none;
+}
+.closesidebar .helpsupport img {
+  width: 80% !important;
+  margin: 0 auto;
+}
+.closesidebar .actionbtn {
+  right: 20px !important;
+}
+.logout {
+  text-align: center;
+  margin: 30px 0 0;
+}
+.logout p {
+  color: rgb(255, 28, 73);
+  font-size: 16px;
+  font-family: "NexaBold";
+  padding: 25px 20px 20px;
+  text-transform: uppercase;
+}
+.logout p:hover {
+  box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #03a18e;
+  background-color: #eaeff3;
+  cursor: pointer;
+}

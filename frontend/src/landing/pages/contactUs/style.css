@@ -1,0 +1,97 @@
+#banner-wrap{
+    background-image: url('../../../assets/images/contact-banner.png');
+}
+#contact-page{
+	padding: 70px 0;
+}
+#contact-page .contactinfo-wrap{
+	text-align: center;
+	padding-bottom: 70px;
+}
+#contact-page .contantinfo{
+	display: inline-block;
+    width: 29%;
+    background: #fff;
+    text-align: center;
+    margin-right: 25px;
+    vertical-align: top;
+	min-height: 150px;
+	box-shadow: 0px 0px 20px 3px rgba(45, 45, 45, 0.1);
+	background: url('../../../assets/images/contactinfo-bg.jpg') no-repeat;
+	background-size: 100% auto;
+	padding: 50px 40px;
+	text-align: left;
+}
+#contact-page .contantinfo.mr-0{
+	margin-right: 0;
+}
+#contact-page .contantinfo h4{
+	color: #08a292;
+	font-family: 'NexaBold';
+	font-size: 24px;
+	border-bottom: 2px dotted #3d3d3d;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+#contact-page .contantinfo p{
+	color: #333333;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'NexaLight';
+	margin: 0;
+}
+#contact-page .contantinfo li{
+	display: block;
+	margin-bottom: 10px;
+}
+#contact-page .contantinfo li a{
+	color: #333333;
+	font-size: 18px;
+	font-family: 'NexaLight';
+	line-height: 30px;
+	text-decoration: none;
+}
+#contact-page .contantinfo li:hover a{
+	color: #08a292;
+}
+#contact-page .contactform-wrap h3{
+	color: #222222;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+#contact-page .contactform-wrap .inputgroup-wrap{
+	margin-bottom: 30px;
+}
+#contact-page .contactform-wrap .input-wrap{
+	display: inline-block;
+	margin-right: 20px;
+	width: 48.5%;
+}
+#contact-page .contactform-wrap .inputgroup-wrap .input-wrap:last-child{
+	margin-right: 0;
+}
+#contact-page .contactform-wrap .input-wrap input,
+#contact-page .contactform-wrap textarea{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px 15px 15px 15px;
+	color: #777777;
+	font-size: 14px;
+	font-family: 'NexaLight';
+	letter-spacing: 1px;
+	box-shadow: none;
+}
+#contact-page .contactform-wrap textarea{
+	width: 99%;
+}
+#contact-page .contactform-wrap button{
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+}

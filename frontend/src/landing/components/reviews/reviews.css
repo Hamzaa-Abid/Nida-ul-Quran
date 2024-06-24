@@ -1,0 +1,81 @@
+#sayabout-section{
+	background: #f8f8f8 url('../../../assets/images/sayabout-bg.png') no-repeat center top;
+    background-size: cover;
+    padding:110px 0 65px 0;
+    text-align: center;
+}
+#sayabout-section h2{
+	text-align: center;
+    background: url('../../../assets/images/kitab-icon1.png') no-repeat center top;
+    padding-top: 70px;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+.sayabout-box .testi-img{
+	width: 133px;
+	height: 133px;
+	position: relative;
+	margin: 0 auto 15px;
+}
+.sayabout-box .testi-img .img-overlay{
+	background: url('../../../assets/images/staricon.png') no-repeat;
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 140px;
+    background-size: 100% auto;
+    height: 140px;
+}
+.sayabout-box .testi-img img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.sayabout-box h3{
+	color: #222;
+	font-family: 'NexaBold';
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.sayabout-box span{
+	display: block;
+	text-transform: uppercase;
+	color: #18a690;
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-family: 'NexaLight';
+}
+.sayabout-box p{
+	font-size: 16px;
+	line-height: 26px;
+	font-family: 'NexaLight';
+	margin: 0;
+}
+.sayabout-box{
+	background: url('../../../assets/images/kitab-icon8.png') no-repeat center bottom;
+	background-size: 90px auto;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+}
+#sayabout-section .owl-theme .owl-nav [class*=owl-]{
+	margin: 0 20px 0;
+	font-size: 0;
+	border-radius: 0;
+}
+#sayabout-section .owl-prev{
+	background: url('../../../assets/images/prev-arrow.png') no-repeat;
+	background-size: 100% auto;
+	width: 31px;
+	height: 31px;
+}
+#sayabout-section .owl-next{
+	background: url('../../../assets/images/next-arrow.png') no-repeat;
+	background-size: 100% auto;
+	width: 31px;
+	height: 31px;
+}
+.owl-dots{
+	display: none !important;
+}

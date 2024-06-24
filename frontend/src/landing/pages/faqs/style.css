@@ -1,0 +1,88 @@
+/* Help Support */
+#helpsupport-page{
+	padding: 70px 0;
+}
+  #helpsupport-page .container > h2{
+	text-transform: uppercase;
+	color: #00a58e;
+	font-size: 36px;
+	text-align: center;
+}
+#helpsupport-page .container > p{
+	color: #222222;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 70px;
+}
+.helpsupport-content{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.helpsupport-content .helpsupport{
+	display: inline-block;
+    width: 48%;
+    background: #fff;
+    text-align: center;
+    margin-right: 30px;
+    vertical-align: top;
+}
+.helpsupport-content .helpsupport:last-child{
+	margin-right: 0;
+}
+.helpsupport-content .video-wrap img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.helpsupport-content .helpsupport h4{
+	color: #222;
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-align: left;
+	font-family: 'NexaBold';
+}
+.tutoronly{
+	padding: 40px 0;
+}
+.tutoronly .video-wrap img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.tutoronly h4{
+	color: #222;
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 15px;
+	text-align: left;
+	font-family: 'NexaBold';
+}
+.tutoronly h2{
+	text-transform: uppercase;
+	color: #00a58e;
+	font-size: 36px;
+	text-align: center;
+}
+.tutoronly p{
+	color: #222222;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 70px;
+}
+.tutoronly .tutorvideo .video-wrap{
+	margin-bottom: 40px;
+}
+.tutoronly .tutorvideo p{
+	color: #222222;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom:0;
+	line-height: 28px;
+}
+.tutoronly .tutorvideo p a{
+	color: #00a58e;
+	text-decoration: none;
+}

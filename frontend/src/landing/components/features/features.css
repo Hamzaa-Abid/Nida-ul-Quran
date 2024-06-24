@@ -1,0 +1,83 @@
+#features-section {
+  padding: 80px 0 30px 0;
+  background: #f8f8f8 url('../../../assets/images/featurebg.png') no-repeat center top;
+  background-size: 100% auto;
+}
+#features-section h2 {
+  text-align: center;
+  background: url('../../../assets/images/kitab-icon1.png') no-repeat center top;
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+.features-content .featurescontent-left {
+  float: left;
+  width: 35%;
+}
+.features-content .featurescontent-middle {
+  float: left;
+  width: 25%;
+}
+.features-content .featurescontent-right {
+  float: right;
+  width: 35%;
+}
+.featurescontent-middle .prayerman-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.featurescontent-left .content {
+  float: left;
+  width: 75%;
+  text-align: right;
+}
+.featurescontent-left .feature-img {
+  float: right;
+  width: 20%;
+}
+.featurescontent-right .content {
+  float: right;
+  width: 75%;
+}
+.featurescontent-right .feature-img {
+  float: left;
+  width: 20%;
+}
+.feature-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.content-detail .content h4 {
+  color: #222;
+  font-family: "NexaBold";
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.content-detail .content p {
+  font-size: 17px;
+  line-height: 27px;
+  margin: 0;
+  font-family: "NexaLight";
+}
+.content-detail .content {
+  margin-bottom: 55px;
+  min-height: 120px;
+}
+.featurebottom-box .feature-img {
+  width: 80px;
+  margin: 0 auto 30px;
+}
+.featurebottom-box .content {
+  padding: 0 20%;
+  text-align: center;
+  margin: 0;
+  height: auto;
+}
+.featurebottom-box {
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+.featurebottom-box .content-detail {
+  padding-bottom: 30px;
+}
